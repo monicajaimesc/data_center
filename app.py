@@ -35,7 +35,7 @@ def view_states():
         new_state.save()
         return make_response(jsonify(**new_state.to_dict()), 201)
         """
-    return "Hello world"
+    return "Hello world!"
 
 
 
